@@ -1,0 +1,259 @@
+html {
+    height: 100%;
+    width: 100%;
+  
+  }
+
+ 
+  #bgd-img {
+    background: url(vista-da-sala-de-aula-moderna-na-escola.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+  }
+  
+  body header {
+    display: flex;
+    justify-content: center;
+    
+    height: 100vh;
+    
+  
+  }
+  
+  nav {
+    
+    padding: 1.3vh;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: gray;
+    width: 80%;
+    border-radius: 4px;
+    height: 80px;
+    
+  
+  
+  }
+  nav p{margin-bottom: 0;}
+  nav p:hover {
+    border-radius: 6px;
+    background-color: white;
+    transition: 1s;
+    transform: scale(1.2);
+  }
+  
+  nav #Principal:hover {
+    transform: scale(1.2);
+    transition: 1s;
+  }
+  
+  
+  div.imp-carousel {
+    width: 100%;
+    max-height: 100px;
+    z-index: 1;
+    position: relative;
+  
+  }
+
+  .sidebar{display: none;}
+
+
+
+
+
+
+
+@media screen and (max-width:425px) {
+    
+  nav{display: flex;
+      justify-content: space-between;}
+  
+  
+  
+  .sidebar{display: block;
+           
+
+            border: solid black 0.3vh;
+            border-radius: 1vh;
+            background-color: rgb(184, 184, 184);
+           
+            
+            align-self: center;
+          margin-top: 2vh;}
+
+#maps{border: solid blue 1px;}
+
+.sidebar ul li{text-decoration: none;}
+
+    .offcanvas-end{
+    top: 0;
+    bottom: 0;
+    width: 65% !important ;
+    }
+
+    nav p#N-sidebar{display: none;}
+    nav{width: 100%;}
+
+    .itens-sidebar{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      min-height: 400px;
+    
+    }
+
+    .itens-sidebar p{
+      
+      border-bottom: solid black 1px;
+      
+    }
+
+    .itens-sidebar h3{
+     
+    border-bottom: solid black 1px;
+    
+    
+    }
+
+    .itens-sidebar p a {text-decoration: none;
+    color: black;}
+    .itens-sidebar h3 a {text-decoration: none;
+                        color: black;}
+
+    
+
+
+
+
+    
+    .menu-main{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center; 
+      align-content: center;
+      align-items: center;       }
+
+      .menu-main a{
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      width: 100%;
+      height: 13vh;
+      background-color: #D9D9D9;
+      text-decoration: none;
+      color: black;
+      margin-bottom: 1.5vh;
+                    }
+
+      .menu-main a:hover{
+        transform: scale(1.2);
+        transition: 0.5s;
+        background-color: hsl(0, 0%, 75%);
+      }
+
+
+      
+      .menu-main a#mais-escuro{background-color: hsl(0, 0%, 75%);}
+    
+     .convitativa{
+      display: flex;
+      flex-flow: column nowrap;
+      
+      
+      
+      
+      
+      
+      
+      margin:5vh;
+    background-color: hsl(0, 0%, 83%) ;}
+
+    .convitativa h3#matricula p{
+
+-webkit-box-shadow: 0px 1px 8px 6px rgba(0,0,0,0.17);
+-moz-box-shadow: 0px 1px 8px 6px rgba(0,0,0,0.17);
+box-shadow: 0px 1px 8px 6px rgba(0,0,0,0.17);
+display: inline;
+background-color: white;
+box-shadow: black;
+border-radius: 6px;
+}
+
+.convitativa h3#matricula p a {text-decoration: none;
+  color: black;}
+
+    .convitativa h3{margin: 1rem;}
+    
+    .convitativa h3#sobre{border-radius: 5px;
+    background-color: white;}
+
+    .convitativa h3#sobre p{margin: 3vh;}
+
+    footer{
+      display: flex;
+      justify-content: center;
+      border: solid rgb(255, 255, 255) 3px;
+      flex-direction: column;
+    
+    }
+
+    .footer {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-content: space-around;
+      align-items: center;
+      margin: 1rem;
+    }
+
+    .footer section{margin: 1rem;}
+
+    #icon{background-color: white;
+          border: solid 1px black;
+          border-radius: 50%;}
+
+
+
+
+    .topo a {color:white;}
+
+    .topo{
+
+      display: inline-block;
+      text-align: center;
+    
+      
+      
+    }
+
+    .footer section h5{align-self: center;
+    text-align: center;
+    color: wheat;
+  border-top: solid wheat 0.5px;
+margin-top: 2px;}
+
+.footer section p{text-align: center;
+color: wheat;}
+
+#midias{
+
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  align-content: space-around;
+  width: 80%;
+
+
+
+}
+
+}
