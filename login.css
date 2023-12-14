@@ -1,0 +1,146 @@
+
+body{display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+        height: 100%;
+        background: url(k.jpg) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;}
+    
+    
+    
+    
+    
+    .form {margin: 50px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    width: 30%;
+    height: 140%;
+    border-radius: 6px;}
+    
+    .dados{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .coleta{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0 0.5rem 0;
+        padding: 2px;
+    }
+    
+    img{
+        border-radius: 50%;
+        background-color: white;
+        margin-top: 30px;
+    }
+    
+    #matricula , #senha , #email , #botao{
+        font-size: 25px;
+        padding: 0 5px;
+        border:solid black 1px;
+        max-width: 80%;
+        margin: 0 auto;
+        border-radius: 6px;
+    }
+    #acesso:hover{
+        background-color: blue;
+        ;
+        transition: 0.75s;
+        color:white;
+        border: solid white 0.25px;
+        
+    }
+    #label {
+        position: relative;
+        left: 5vh;
+        color: wheat;
+    }
+    
+    #acesso{
+        font-size: 120%;
+        height: 8vh;
+        width: 100%;
+        border-radius: 40px;
+        background-color: white;
+        
+    
+    }
+
+
+
+@media  screen and (max-width:500px){
+    
+
+
+
+body{display: flex;
+align-items: center;
+align-content: center;
+flex-wrap: wrap;
+    height: 100%;
+    background: url(k.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;}
+
+
+
+
+
+.form {margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: darkblue;
+width: 80%;}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+}
+
+.coleta{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 0.5rem 0;
+    padding: 2px;
+}
+
+img{
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 30px;
+}
+
+#matricula , #senha , #email , #botao{
+    font-size: 20px;
+    padding: 0 5px;
+    border:solid black 1px;
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+#label {
+    position: relative;
+    left: 20px;
+    color: wheat;
+}
+
+#acesso{
+    font-size: 120%;
+    height: 45px;
+    width: 100%;
+    border-radius: 40px;
+    background-color: white;
+
+}
+}  
