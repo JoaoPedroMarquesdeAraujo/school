@@ -189,7 +189,53 @@ font-size: 6vh;}
 
 
 
+nav p:hover {
+  border-radius: 4px;
+  text-decoration: underline;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
 
+.aluno button:hover{
+  transform: scale(1.1);
+  background-color: black;
+  color: white;
+  transition: 1s;
+  
+}
+
+
+.aluno button{
+  background-color: yellow;
+  border-radius: 10px;
+ 
+  height: 40px;
+}
+
+
+
+
+nav p a{
+  text-decoration: none;
+  color: black;
+}
+.aluno button{
+  background-color: yellow;
+  border-radius: 10px;
+ 
+  height: 40px;
+}
+nav #Principal:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+
+
+nav p a{
+  text-decoration: none;
+  color: black;
+}
 
 
 
@@ -262,11 +308,17 @@ font-size: 6vh;}
     align-content: space-between;
   
   }
+
+  .material h3{
+    text-align: center;
+    background-color: white;
+  }
   
   #midias h3{
     color:wheat;
     width: 100%;
     text-align: center;
+    background-color: black;
   }
   #slogan{
     display: flex;
@@ -287,7 +339,19 @@ font-size: 6vh;}
 
 
 @media screen and (max-width: 425px){
-    
+  .materiais{
+    display: none;
+  }
+
+  #crsel-material{
+    display: block
+  }
+
+
+
+  .sumir{
+    display: none;
+  }
   body {background-color:  #033e8c!important;;}
   header{background-color:#033E8C;}
   main{background-color:#033E8C  ;}
@@ -331,9 +395,36 @@ flex-direction: column;
 flex-wrap: nowrap;
 justify-content: flex-start;
 
+
 }
 
-.offcanvas-body h3{margin-top: auto;}
+.lol{
+  margin: 0!important;
+}
+
+.offcanvas-body p.itens-off{
+margin: 1rem!important;
+border-bottom: solid black 1px;
+}
+
+.offcanvas-body h3{margin-top: auto;
+  align-self: center;
+
+}
+
+.offcanvas-body h3 a button{
+  width: 171px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #033e8c;
+
+}
+
+.offcanvas-body h3 a button{
+  font-size: 20px;
+}
+
+
 
 nav{justify-content: space-between;
     align-content: flex-start;
@@ -355,16 +446,42 @@ max-height: 380px;
 
 }
 
+.venha section{
+  width: 90%;
+}
 .venha{display: flex;
 flex-flow: column nowrap;
-margin: 1rem;}
-.venha.imp{align-self: center;}
-.imp {border: solid  darkblue 3px;
-    
-    max-height: 195px;
+margin: 1rem;
+justify-content: center;
+align-items: center;
+height: fit-content;}
+.venha.imp{
+  
+display: flex;
+flex-direction: column;}
+
+#sumir{
+  display: none;
+}
+.imp {
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+    max-height: 400px;
     z-index: 10;
-  border-bottom: solid darkblue 10px;
-  margin: 1rem auto;}
+    align-content: space-around;
+  
+  margin: 0 auto 1rem auto;}
+
+  .imp div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1rem auto;
+  }
 
 
 .convite {background-color: blanchedalmond;}
@@ -380,6 +497,10 @@ margin: 1rem;}
 
 .convite h4 span{border-bottom: solid  rgb(121 72 0) 2px;}
 
+
+.docente{
+  height: 200px;
+}
 
 #professores{
   display: flex;

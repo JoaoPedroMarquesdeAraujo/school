@@ -19,22 +19,22 @@
 
 
       <p>
-        <img src="meta-icon-sem-fundo.png" height="70px" id="icon">
+        <img src="meta-icon-sem-fundo.jpg" height="70px" id="icon">
       </p>
       <h2 id="Principal">
-        Inicioo
+        Inicio
       </h2>
       <p id="N-sidebar">
-        Infantil 
+        <a href="infantil.html">Infantil</a> 
       </p>
       <p id="N-sidebar">
-        Fundamental
+        <a href="fundamental.html">Fundamental</a>
       </p>
       <p id="N-sidebar">
-        Medio  
+        <a href="medio.html">Medio</a>  
       </p>
-      <p id="N-sidebar">
-        Login
+      <p id="N-sidebar" class="aluno">
+        <a href="login.html"><button><p>Area do aluno</p></button></a>
       </p>
       <h2 class="sidebar">
         <i class="bi bi-list" style="font-size: 8vh;"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"  width="24px"> </i>
@@ -43,25 +43,24 @@
 
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
           <div class="offcanvas-header">
-            <h5 id="offcanvasRightLabel"><img src="meta-icon-sem-fundo.png" id="icon"></h5>
+            <h5 id="offcanvasRightLabel"><img src="meta-icon-sem-fundo.jpg" width="70" id="icon"></h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
-            <div class="itens-sidebar">
+               
+                    
+            <p class="itens-off"> <a href="infantil.html">Infantil</a></p>
+                    
+        
+                    
+            <p class="itens-off"><a href="fundamental.html">Fundamental</a></p>
+          
+          
+            <p class="itens-off"><a href="medio.html"> Medio </a> </p>
             
-              <p> <a href="infantil.html">Infantil</a></p>
-            
-
-            
-              <p><a href="fundamental.html">Fundamental</a></p>
-            
-            
-              <p><a href="medio.html"> Medio </a> </p>
-              
-            
-            
-              <h3 id="login"> <a href=login.html>Login</a> </h3>
-          </div>
+          
+          
+            <h3 id="login"> <a href=login.html><Button><p class="lol">Area do aluno</p></Button></a> </h3>
 
           </div>
 
@@ -74,29 +73,49 @@
   </header>
   <main>
     <div class="menu-main">
-      <a href="#valores" >
-        <h3>
-           <p>
-              <span class="iconify" data-icon="fluent:brain-circuit-20-filled" data-width="24" data-height="24"></span> Valores
-            </p>
-        </h3>
-      
-      </a>  
-      <a href="#futuro" id="mais-escuro">
+      <section>
+        <a href="#valores" >
+          <h3>
+             <p>
+                <span class="iconify" data-icon="fluent:brain-circuit-20-filled" data-width="24" data-height="24"></span> Valores
+              </p>
+          </h3>
+        </a>
+      </section>
+      <section id="mais-escuo">   
+        <a href="#futuro" id="">
         
-        <h3>
-          <p>
+          <h3>
+            <p>
              <i class="bi bi-tools"></i> Projeto
-          </p> 
-        </h3>
-      </a>
-      <a href="unidades.html">
-        <h3>
-          <p>
-            <span class="iconify" data-icon="teenyicons:school-outline" data-width="24" data-height="24"></span> Unidades
-          </p>
-        </h3>
-      </a>
+            </p> 
+          </h3>
+        </a>
+      </section>
+      <section>
+        <label for="p-modal">
+            <h3>
+              <p>
+                <span class="iconify" data-icon="teenyicons:school-outline" data-width="24" data-height="24"></span> Unidades
+              </p>
+            </h3>
+        </label><input type="checkbox" id="p-modal" class="checkboxmodal">
+          <div class="modal">
+            <div class="localidades">
+              <section id="localidade">
+                <h3>Unidade I</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.362757115968!2d-34.843374425890744!3d-7.083877369438548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acdd98aedb5ee1%3A0x5295cfb2e4d3786e!2sMeta%20UP!5e0!3m2!1spt-BR!2sbr!4v1702576022963!5m2!1spt-BR!2sbr" width="280" height="210" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </section>
+              <section id="localidade">
+                <h3>Unidade II</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15837.570862706945!2d-34.84861756669614!3d-7.080387931349254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acdda32b8151bf%3A0x62afaa823a962cb7!2sCol%C3%A9gio%20Meta%20II!5e0!3m2!1spt-BR!2sbr!4v1702576174748!5m2!1spt-BR!2sbr" width="280" height="210" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </section>
+            </div>
+            <label for="p-modal" class="close-modal">
+              <div class="close-modal"></div>
+            </label>
+          </div>
+      </section>
       
     </div>
   <div class="convite">
@@ -159,7 +178,7 @@
 
     <div class="footer">
       <section id="slogan">
-        <img src="meta-icon-sem-fundo.png" id="icon">
+        <img src="meta-icon-sem-fundo.jpg" width="70" id="icon">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </section>
       <section id="central">
