@@ -19,7 +19,7 @@ body{display: flex;
     justify-content: center;
     align-items: center;
     background-color: darkblue;
-    width: 30%;
+    width: 60vh;
     height: 140%;
     border-radius: 6px;}
     
@@ -42,10 +42,10 @@ body{display: flex;
     }
     
     #matricula , #senha , #email , #botao{
-        font-size: 25px;
+        font-size: 4vh;
         padding: 0 5px;
         border:solid black 1px;
-        max-width: 80%;
+        max-width: 42vh;
         margin: 0 auto;
         border-radius: 6px;
     }
@@ -59,23 +59,23 @@ body{display: flex;
     }
     #label {
         position: relative;
-        left: 5vh;
+        left: 0.5vh;
         color: wheat;
     }
     
     #acesso{
         font-size: 120%;
         height: 8vh;
-        width: 100%;
+        width: 31vh;
         border-radius: 40px;
         background-color: white;
-        
+        margin: 0 auto;
     
     }
 
 
-
-@media  screen and (max-width:500px){
+/*
+@media  screen and (max-width:800px){
     
 
 
@@ -131,16 +131,17 @@ img{
 
 #label {
     position: relative;
-    left: 20px;
+    left: 3.1vh;
     color: wheat;
 }
 
 #acesso{
     font-size: 120%;
     height: 45px;
-    width: 100%;
+    width: 80%;
     border-radius: 40px;
     background-color: white;
+  margin: 0 auto;
 
 }
 }  

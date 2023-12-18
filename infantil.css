@@ -78,7 +78,30 @@ p {margin: 0 !important ;}
     height: 100vh;
   }
 
+  .docente section h3{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 
+  .material{
+    margin-top: 12vh;
+  }
+
+  .material h3{
+    margin-top: 1rem;
+   
+  }
+
+ .hot-fix{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+
+ }
   .corpo-docente{
     display: none;
   }
@@ -195,7 +218,6 @@ nav p:hover {
   transition: 0.5s;
   transform: scale(1.1);
 }
-
 .aluno button:hover{
   transform: scale(1.1);
   background-color: black;
@@ -204,12 +226,12 @@ nav p:hover {
   
 }
 
-
 .aluno button{
-  background-color: yellow;
-  border-radius: 10px;
- 
-  height: 40px;
+  background-color: #033e8c;
+  border-radius: 30px;
+  color: #D9D9D9;
+  height: 50px;
+  width: 150px;
 }
 
 
@@ -220,11 +242,13 @@ nav p a{
   color: black;
 }
 .aluno button{
-  background-color: yellow;
-  border-radius: 10px;
- 
-  height: 40px;
+  background-color: #033e8c;
+  border-radius: 30px;
+  color: #D9D9D9;
+  height: 50px;
+  width: 150px;
 }
+
 nav #Principal:hover {
   transform: scale(1.1);
   transition: 0.5s;
@@ -338,7 +362,7 @@ nav p a{
   
 
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 550px){
   .materiais{
     display: none;
   }
@@ -378,13 +402,7 @@ nav p a{
             bottom: 0;
             width: 65% !important ;
             }
-            .itens-sidebar{
-                display: flex;
-                flex-wrap: nowrap;
-                flex-direction: column;
-               
-              
-              }
+       
               .offcanvas-body p a {text-decoration: none;
                 color: black;}
                 .offcanvas-body h3 a {text-decoration: none;
